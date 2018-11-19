@@ -19,6 +19,12 @@
                 <span>Tipo Materia</span>
               </a>
             </li>
+            <li>
+              <a href="{{URL::action('MateriaController@index')}}">
+                <i class="fa fa-graduation-cap"></i> 
+                <span>Materia</span>
+              </a>
+            </li>
             
 
 
