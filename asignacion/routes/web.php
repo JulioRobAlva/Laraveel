@@ -15,6 +15,8 @@ Route::get('/', function () {
     return view('auth/login');
 });
 Route::resource('alumno', 'AlumnoController');
+Route::resource('tipomateria', 'TipoMateriaController');
+Route::resource('materia', 'MateriaController');
 
 Auth::routes();
 Route::auth();

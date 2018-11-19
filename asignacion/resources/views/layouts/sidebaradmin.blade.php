@@ -13,6 +13,13 @@
                 <span>Alumnos</span>
               </a>
             </li>
+            <li>
+              <a href="{{URL::action('TipoMateriaController@index')}}">
+                <i class="fa fa-pencil-square"></i> 
+                <span>Tipo Materia</span>
+              </a>
+            </li>
+            
 
 
             </ul>          
